@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            /* padding: 0;
+            font-family: Arial, Helvetica, sans-serif; */
+
+        }
+         /* section{
+            position: relative;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } 
+          section header{
+            position: absolute;
+            top:0;
+            width:100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+             
+        } 
+        section header ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        } */
+         ul li{
+            float: right;
+            display: inline-block;
+            list-style: none;
+            padding:5px;
+            /* margin-left: 20px; */
+        }
+        .main{
+            margin-left: 250px;
+
+        }
+        
+        section header ul li a{
+            color:blueviolet;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        section header ul li button{
+            background: blue;
+            border: none;
+            outline: none;
+            padding: 8px 14px;
+            color:#fff;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        /* section .main{
+            width:580px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } */
+        section .main .searchbox{
+            position: relative;
+            width: 80%;
+              margin-bottom:60px; 
+        }
+        section .main .searchbox .search{
+            width: 100%;
+            padding:13px;
+            padding-left: 45px;
+            padding-right: 60px;
+            border-radius: 30px;
+            border: 1px solid black;
+            outline: none;
+            font-size: 16px;
+        }
+         section .main .searchbox .icons{
+            position: absolute;
+            top:0;
+            width: 100%;
+            display: flex;
+            padding: 12px 20px;
+            justify-content: space-around;
+            align-items: center; 
+            
+
+        }
+        section .main .buttons{
+            margin-top: 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <section>
+        <header>
+    <ul>
+        <li>Gmail</li>
+        <li>Images</li>
+        <li><img src="./dots-nine.png" alt="" width="20px" height="20px"></li>
+        <li><button>Sign In</button></li>
+    </ul>
+    </header>
+    <div class="main">
+        <img src="./googleimg.png" alt=""></div>
+        <div class="searchbox">
+            <input type="text" class="search">
+            <div class="icons">
+                <div><img src="./search.png" alt="" width="20px" height="20px"></div>
+                <div><img src="./mic.png" alt="" width="20px" height="20px"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+            </div>
+
+        </div>
+    </div>
+    </section>
+</body>
+</html>
